@@ -11,6 +11,11 @@
     text-decoration: none;
 
 }
+
+#hero {
+    text-align:center;
+}
+
 #hero-msg {
     text-align: center;
 }
