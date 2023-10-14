@@ -11,6 +11,9 @@
     text-decoration: none;
 
 }
+#hero-msg {
+    text-align: center;
+}
 
 #hero-msg h1 {
     text-align: center;
