@@ -14,6 +14,7 @@
     text-align: center;
     color:antiquewhite;
     text-decoration: none;
+    padding: 35px;
 
 }
 
@@ -52,11 +53,15 @@ nav a:hover {
 }
 
 body {
-    background-color: antiquewhite; 
+    background-color: antiquewhite;
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#1C7293;
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'Verdana', 'Arial';
 }
 
 
@@ -65,12 +70,20 @@ header {
     background-color: #70D6FF;
     color: antiquewhite;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 .join {
     background-color: #1C7293;
     color: #9CE37D;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #1C7293;
@@ -85,25 +98,49 @@ header {
 }
 .msg {
     background-color: #9CE37D;
+    line-height: 1.5em;
+    padding: 30px;
+    
 }
+
+
+.msg h2 {
+    color: #1C7293;
+    font-family:'Raleway', 'Verdana', 'Arial';
+}
+.msg p {
+    color: black;
+    font-size: 8em;
+    padding: 15px;
+}
+
+
+
 footer {
     background-color: #EE2E31;
     color: #9CE37D;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+
 }
 
 .home-title {
     color: #9CE37D;
+    font-family:'Raleway', 'Verdana', 'Arial';
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
     color: #1C7293;
-}
-
-.msg h2 {
-    color: #1C7293;
-}
-.msg p {
-    color: black;
 }
 
 footer a {
@@ -119,6 +156,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding: 10px;
 }
 
 #hero-img {
@@ -132,4 +170,28 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
-} 
+}
+
+#logo_link {
+padding-top: 5px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
