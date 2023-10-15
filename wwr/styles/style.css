@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Roboto+Condensed';
 
     
 }
@@ -51,6 +56,7 @@ body {
 }
 header {
     background-color:#1C7293;
+    font-family: 'Raleway';
 }
 
 
